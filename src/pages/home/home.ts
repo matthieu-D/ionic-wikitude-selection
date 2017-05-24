@@ -8,7 +8,7 @@ import { Platform } from 'ionic-angular';
 export class HomePage {
   wikitudePlugin: any;
   requiredFeatures = [ "2d_tracking", "geo" ];
-  arExperienceUrl = "www/assets/experience/world/x_Demo_2_SolarSystem(Geo)/index.html";
+  arExperienceUrl = "www/assets/experience/world/multi-meeting/index.html";
   startupConfiguration = {
     "camera_position": "back"
   };
@@ -24,7 +24,7 @@ export class HomePage {
 
   onDeviceSupported = () => {
     console.log('device supported');
-    this.launchEarth();
+    this.launchWorld();
   }
 
   launchWorld() {
@@ -35,11 +35,6 @@ export class HomePage {
       this.requiredFeatures,
       this.startupConfiguration
     );
-  }
-
-  launchEarth() {
-    this.arExperienceUrl = "www/assets/experience/world/earth/index.html";
-    this.launchWorld();
   }
 
   onDeviceNotSupported () {
