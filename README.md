@@ -1,1 +1,1 @@
-Source code for: https://www.javascripttuts.com/integrating-a-labeled-marker-in-an-augmented-reality-ionic-app-using-wikitude/
+Source code for: https://www.javascripttuts.com/marker-selection-and-property-modification-in-an-augmented-reality-ionic-app-using-wikitude/
